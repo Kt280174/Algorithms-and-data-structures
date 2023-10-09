@@ -1,0 +1,10 @@
+﻿  Source.c
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(59,7): warning C4101: 'input': unreferenced local variable
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(84,12): warning C4098: 'searchNode': 'void' function returning a value
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(97,12): warning C4098: 'search_in_list': 'void' function returning a value
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(115,13): warning C4098: 'delListNode': 'void' function returning a value
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(122,13): warning C4098: 'delListNode': 'void' function returning a value
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(136,17): warning C4133: 'function': incompatible types - from 'node *' to 'char *'
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(136,24): warning C4133: 'function': incompatible types - from 'node *' to 'const char *'
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\Source.c(137,18): warning C4133: 'function': incompatible types - from 'node *' to 'char *'
+  Лаба2_алгос.vcxproj -> C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Лаба2_алгос\x64\Debug\Лаба2_алгос.exe
