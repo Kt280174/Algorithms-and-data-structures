@@ -1,0 +1,8 @@
+﻿  Source.c
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\Source.c(9,17): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\Source.c(22,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\Source.c(23,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\Source.c(24,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\Source.c(36,11): warning C4098: 'generate_expressions_helper': 'void' function returning a value
+C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\Source.c(78,15): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+  Lab3_algo.vcxproj -> C:\Users\DELL\OneDrive\Desktop\Năm 2\numerical method\Lab3_algo\x64\Debug\Lab3_algo.exe
