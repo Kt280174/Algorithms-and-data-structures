@@ -61,6 +61,10 @@ void generate_expressions_helper(char* arr, int target, char* expression, int in
 }
 void generate_expressions(char* arr, int target) {
 	FILE* fpt = fopen("output.txt", "w+");
+	if (fpt == NULL) {
+		printf("Error!");
+		exit(1);
+	}
 	generate_expressions_helper(arr, target, "", 0, 0, 0, fpt);
 	fclose(fpt);
 	
@@ -68,6 +72,10 @@ void generate_expressions(char* arr, int target) {
 int main() {
 	char str[30];
 	FILE* fp = fopen("input.txt", "r");
+	if (fp == NULL) {
+		printf("Error!");
+		exit(1);
+	}
 	char c;
 	int i = 0;
 	while ((c = fgetc(fp))!= '\n') {
@@ -80,6 +88,10 @@ int main() {
 	generate_expressions(str, number);
 	if (check == 0) {
 		FILE* fpt = fopen("output.txt", "w+");
+		if (fpt == NULL) {
+			printf("Error");
+			exit(1);
+		}
 		fprintf(fpt, "%d", 0);
 		fclose(fpt);
 	}
